@@ -25,10 +25,10 @@
         display: table;
       }
       .menu {
-        width: 25%
+        width: 20%
       }
       .content {
-        width: 75%
+        width: 70%
       }
       .menu ul {
         lit-style-type: none;
