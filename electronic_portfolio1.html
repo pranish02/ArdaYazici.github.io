@@ -4,7 +4,110 @@
     <title>My Contact Information</title>
   </head>
   <body>
-    <h1>Contact Information</h1>
+    <h1>Contact Information</h1><!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .header,
+      .footer {
+        background-color: purple;
+        color: white;
+        padding: 15px;
+      }
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      .column img {
+
+        float: right;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .menu {
+        width: 20%
+      }
+      .content {
+        width: 70%
+        float: right;
+      }
+      
+      .more {
+      	float: right;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff;
+      }
+      .menu li:hover {
+        backround-color: #0099cc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>My Portfolio</h1>
+    </div>
+      <div class="clearfix">
+        <div class="column menu">
+          <ul>
+            
+            <li><a href="https://ardayazici.github.io/electronic_portfolio0.html">Main Page</a></li>
+            
+            <li><a href="https://ardayazici.github.io/electronic_portfolio1.html">Contact Information</a></li>
+            
+            <li><a href="https://ardayazici.github.io/electronic_portfolio2.html">Academic History</a></li>
+            
+            <li><a href="https://ardayazici.github.io/electronic_portfolio3.html">Work and Volunteer Experience</a></li>
+            
+            <li><a href="https://ardayazici.github.io/electronic_portfolio4.html">Accomplishments</a></li>
+            
+          </ul>
+        </div>
+        <div class="column content">
+          <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+            <h1>Hello World!</h1>
+            <p>This is my portfolio.</p>
+            <p>You can click on the links to the left of the page to see information on them.</p>
+          </div>
+          
+          <div class="column content more">
+          <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+            <h1>Second Content</h1>
+            <p>You can use this as another space to write content for your website.</p>
+            <p>Any more content you write, you won't need to add any div classes, just copy and paste the column content and you're set.</p>
+          </div>
+          
+          <div class="column content more">
+          <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+            <h1>Third Content</h1>
+            <p>Make sure tha you leave the bottom div in place, as it's for the CLEARFIX hack that you've opened above.</p>
+            <p>Clearfix allows you to keep the image and the text alligned, without having the text appear above, through, or below the image itself.</p>
+          </div>
+          
+        </div>
+        <div class="footer">
+          <p>Footer Text</p>
+        </div>
+  </body>  
+</html>
+
+
 
 
 
